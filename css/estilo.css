@@ -6,6 +6,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #fde68a;
+}
 
 #container {
     min-width: 320px;
@@ -13,6 +16,7 @@
     margin: auto;
     padding: 10px;
     border: 1px solid red;
+    background-color: #fff;
 }
 
 #container h2, h3{
@@ -43,7 +47,16 @@
 
 button {
     padding: 10px;
-    background-color: ;
+    border: none;
+    border-radius: 10px;
+    background-color: #38bdf8;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button:active {
+    background-color: #075985;
+    color: #fef9c3;
 }
 
 footer {
